@@ -1,11 +1,8 @@
 package seoultech.batch.common
 
-import jakarta.persistence.EntityListeners
-import jakarta.persistence.GeneratedValue
-import jakarta.persistence.Id
-import jakarta.persistence.MappedSuperclass
-import org.springframework.data.annotation.CreatedDate
-import org.springframework.data.annotation.LastModifiedDate
+import jakarta.persistence.*
+import org.hibernate.annotations.CreationTimestamp
+import org.hibernate.annotations.UpdateTimestamp
 import org.springframework.data.jpa.domain.support.AuditingEntityListener
 import java.time.LocalDateTime
 
@@ -15,11 +12,16 @@ abstract class BaseEntity {
 
     @Id
     @GeneratedValue
-    val id: Long = 0L
+    var id: Long? = null
+        internal set
 
-    @CreatedDate
+    @CreationTimestamp
+    @Column(name = "created_at", nullable = false, updatable = false)
     lateinit var createdAt: LocalDateTime
+        internal set
 
-    @LastModifiedDate
+    @UpdateTimestamp
+    @Column(name = "updated_at", nullable = false)
     lateinit var updatedAt: LocalDateTime
+        internal set
 }
