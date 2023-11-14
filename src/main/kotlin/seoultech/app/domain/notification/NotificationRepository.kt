@@ -1,4 +1,4 @@
-package seoultech.batch.notification
+package seoultech.app.domain.notification
 
 import org.springframework.data.jpa.repository.JpaRepository
 

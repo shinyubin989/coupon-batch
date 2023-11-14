@@ -22,13 +22,27 @@ repositories {
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-batch")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-	implementation("org.springframework.boot:spring-boot-starter-quartz")
+//	implementation("org.springframework.boot:spring-boot-starter-quartz")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("com.fasterxml.jackson.module:jackson-module-kotlin")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	runtimeOnly("com.mysql:mysql-connector-j")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
 	testImplementation("org.springframework.batch:spring-batch-test")
+	implementation("io.github.oshai:kotlin-logging-jvm:5.1.0")
+//	compileOnly("com.github.jojoldu.spring-batch-querydsl:spring-batch-querydsl-reader:2.4.8")
+
+
+
+	// exposed
+//	implementation ("org.jetbrains.exposed:exposed-core:0.44.1")
+//	implementation ("org.jetbrains.exposed:exposed-crypt:0.44.1")
+//	implementation ("org.jetbrains.exposed:exposed-dao:0.44.1")
+//	implementation ("org.jetbrains.exposed:exposed-jdbc:0.44.1")
+//	implementation ("org.jetbrains.exposed:exposed-kotlin-datetime:0.44.1")
+//	implementation ("org.jetbrains.exposed:exposed-json:0.44.1")
+//	implementation ("org.jetbrains.exposed:exposed-money:0.44.1")
+//	implementation ("org.jetbrains.exposed:exposed-spring-boot-starter:0.44.1")
 }
 
 tasks.withType<KotlinCompile> {

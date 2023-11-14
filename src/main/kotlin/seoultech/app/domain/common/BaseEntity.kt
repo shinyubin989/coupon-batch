@@ -1,4 +1,4 @@
-package seoultech.batch.common
+package seoultech.app.domain.common
 
 import jakarta.persistence.*
 import org.hibernate.annotations.CreationTimestamp

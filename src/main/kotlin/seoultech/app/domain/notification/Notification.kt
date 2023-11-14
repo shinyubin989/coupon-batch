@@ -1,7 +1,7 @@
-package seoultech.batch.notification
+package seoultech.app.domain.notification
 
 import jakarta.persistence.Entity
-import seoultech.batch.common.BaseEntity
+import seoultech.app.domain.common.BaseEntity
 
 @Entity
 class Notification (
