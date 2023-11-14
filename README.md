@@ -1,4 +1,3 @@
-<img width="1096" alt="image" src="https://github.com/shinyubin989/parallel-batch/assets/69676101/61f75eb3-ed77-4f85-94b5-42e1adb36537">
 <img width="1095" alt="image" src="https://github.com/shinyubin989/parallel-batch/assets/69676101/7823b23c-a25b-4adb-8037-f629ccc22972">
 <img width="1088" alt="image" src="https://github.com/shinyubin989/parallel-batch/assets/69676101/56bf588f-0d6e-4f9a-af82-1e06d5812cd0">
 <img width="1097" alt="image" src="https://github.com/shinyubin989/parallel-batch/assets/69676101/b36c112a-33f3-4416-bccf-c4a70808a8a2">
