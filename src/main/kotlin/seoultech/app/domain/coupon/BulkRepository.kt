@@ -1,9 +1,10 @@
 package seoultech.app.domain.coupon
 
-import jakarta.transaction.Transactional
+//import jakarta.transaction.Transactional
 import org.springframework.jdbc.core.BatchPreparedStatementSetter
 import org.springframework.jdbc.core.JdbcTemplate
 import org.springframework.stereotype.Repository
+import org.springframework.transaction.annotation.Transactional
 import seoultech.app.batch.CouponProjection
 import java.sql.PreparedStatement
 import javax.sql.DataSource
